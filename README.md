@@ -1,20 +1,19 @@
 # 🕒 CyberTick  
 **Modern Timepiece Interface · Glassmorphism UI · Focus-Oriented Design**
 
-👉 **[Explore the Live Project](https://ayinuer.github.io/CyberTick-site/index.html)**
+👉 **[Explore the Live Project](https://ayinuer.github.io/CyberTick/ )**
 
 ---
 
 ## 📌 Project Overview
-**CyberTick** is a premium, responsive web application designed to deliver a distraction-free timekeeping experience.  
-It combines elegant **Glassmorphism aesthetics** with functional utility, offering both **Analog and Digital clock modes**, alongside a **Lockdown-style focus overlay** designed to support deep work and concentration.
 
-The project focuses on:
-- Clean visual hierarchy
-- Smooth UI transitions
-- Semantic and accessible HTML
-- Maintainable, modular CSS architecture
+**CyberTick** is a modern, responsive web application designed to deliver a refined timekeeping experience. It features both **Digital and Analog clock modes** and includes a **focus-oriented overlay** to enhance productivity and minimize distractions.
 
+### Key Highlights
+- **Glassmorphism design** for a clean, visually engaging interface  
+- Smooth, intuitive animations and UI transitions  
+- Semantic, accessible, and well-structured HTML  
+- Modular, maintainable CSS architecture for scalability
 ---
 
 ## 📋 Table of Contents
@@ -32,10 +31,11 @@ The project focuses on:
 ## 🎯 Project Goals & Vision
 
 | Category | Description |
-|--------|-------------|
-| **Core Mission** | Deliver a clean, elegant, and distraction-free time interface with optional focus-lockdown functionality. |
-| **Target Users** | Developers, designers, students, and professionals who value aesthetics and productivity. |
-| **Design Philosophy** | Minimalist, glass-based UI with subtle micro-interactions and balanced layout. |
+|----------|-------------|
+| **Core Mission** | Provide a sleek, intuitive, and distraction-free timekeeping experience, enhanced with an optional focus-lockdown mode for deep work. |
+| **Target Users** | Developers, designers, students, and professionals who prioritize productivity, focus, and visually appealing interfaces. |
+| **Design Philosophy** | Minimalist **Glassmorphism-inspired UI** with subtle micro-interactions, thoughtful spacing, and a balanced, user-friendly layout. |
+| **Long-term Vision** | Evolve into a versatile productivity tool that seamlessly blends aesthetics with functionality across devices and work environments. |
 
 ---
 
