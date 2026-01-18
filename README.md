@@ -153,4 +153,4 @@ The final design, logic, and testing decisions remain **fully authored and verif
 ```bash
 git clone https://github.com/Ayinuer/CyberTick.git
 cd CyberTick
-open index.html
+open index.html# CyberTick
