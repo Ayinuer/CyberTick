@@ -1,7 +1,7 @@
 # 🕒 CyberTick  
 **Modern Timepiece Interface · Glassmorphism UI · Focus-Oriented Design**
 
-👉 **[Explore the Live Project](https://github.com/Ayinuer/CyberTick)**
+👉 **[Explore the Live Project](https://ayinuer.github.io/CyberTick-site/index.html)**
 
 ---
 
@@ -44,14 +44,14 @@ The project focuses on:
 > 📌 *All screenshots are taken from the current build of CyberTick.*
 
 ### 🕰️ Analog Mode
-![Analog Clock View](/cyberTick/assets/%20light.An.png) 
+![Analog Clock View](/assets/%20light.An.png) 
 
 ### 💻 Digital Mode
-![Digital Clock View](cyberTick/assets/light.digital.png) 
+![Digital Clock View](/assets/light.digital.png) 
 
 
 ### 🌙 Theme Toggle (Light / Dark)
-![Theme Toggle View](cyberTick/Dark.An.png)  (![Dark Digital](cyberTick/assets/Dark.digital.png)
+![Theme Toggle View](/assets/Dark.An.png)  (![Dark Digital](/assets/Dark.digital.png)
 
 📁 **Screenshots directory:** `/screenshots`
 
@@ -89,8 +89,8 @@ CyberTick follows modern web standards and has been formally validated.
 - ✅ **Accessibility Checks** — Semantic landmarks applied
 
 ### Validation Evidence
-![HTML Validation Result](cyberTick/assets/Screenshot.png)  
-![CSS Validation Result](cyberTick/assets/Screenshot.result.png)
+![HTML Validation Result](/assets/Screenshot.png)  
+![CSS Validation Result](/assets/Screenshot.result.png)
 
 ---
 
