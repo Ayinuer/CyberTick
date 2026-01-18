@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberTick | Modern Timepiece</title>
+    <title>CyberTick | London Timepiece</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="dark-mode">
-    <div class="background-image"></div>
-    <div class="glass-overlay"></div>
+<body class="light-mode">
 
-    <div class="container">
-        <header>
-            <h1 class="logo">CYBERTICK</h1>
+    <div class="app-container">
+        
+        <header class="app-header">
+            <div class="location-badge">
+                <span class="location-name">London</span>
+                <span id="weather-display" class="weather-info">Loading...</span>
+            </div>
+            
+            <h1 class="logo" aria-label="CyberTick Logo">CYBERTICK</h1>
+            <p class="tagline">Modern Timepiece Interface</p>
         </header>
 
-        <main class="clock-display">
-            <div id="analog-clock" class="analog-wrapper">
+        <main class="clock-viewport">
+
+            <div id="analog-clock" class="clock-wrapper" role="status" aria-label="Analog Clock Interface">
                 <div class="clock-face" id="clock-face">
                     <div class="hand hour" id="hour-hand"></div>
                     <div class="hand minute" id="min-hand"></div>
@@ -25,17 +36,20 @@
                 </div>
             </div>
 
-            <div id="digital-clock" class="digital-wrapper" style="display: none;">
+            <div id="digital-clock" class="digital-wrapper is-hidden">
                 <div class="time-text" id="time-val">00:00:00</div>
-                <div class="date-text" id="date-val">2026 - 01 - 18</div>
+                <div class="date-text" id="date-val">2026 · 01 · 18</div>
             </div>
+
         </main>
 
-        <footer class="controls">
-            <button id="theme-btn">TOGGLE LIGHT / DARK</button>
-            <button id="mode-btn">TOGGLE DIGITAL / ANALOG</button>
+        <footer class="app-controls">
+            <button id="theme-btn" aria-label="Toggle Light and Dark Mode">Toggle Light / Dark</button>
+            <button id="mode-btn" aria-label="Switch between Analog and Digital view">Toggle View</button>
         </footer>
+
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
