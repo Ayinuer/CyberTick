@@ -1,0 +1,105 @@
+:root {
+    --primary-gold: #FFD700;
+    --bg-dark: #0a0a0a;
+    --glass: rgba(255, 255, 255, 0.1);
+}
+
+body.light-mode {
+    --primary-gold: #6d5b3d;
+    --bg-dark: #f4f4f4;
+    --glass: rgba(0, 0, 0, 0.05);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--primary-gold);
+    font-family: 'Garamond', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.background-image {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: url('hourglass.jpg') center/cover no-repeat; /* Use your sandglass image */
+    opacity: 0.3;
+    z-index: -2;
+}
+
+.logo {
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--primary-gold);
+    padding-left: 1rem;
+}
+
+.analog-wrapper {
+    width: 350px;
+    height: 350px;
+    border: 2px solid var(--primary-gold);
+    border-radius: 50%;
+    position: relative;
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+}
+
+/* Number Positioning */
+.number {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    background: var(--primary-gold);
+    transform: translateX(-50%);
+    border-radius: 4px;
+}
+.hour { width: 7px; height: 80px; }
+.minute { width: 4px; height: 120px; }
+.second { width: 2px; height: 140px; background: #ff4d4d; }
+
+.center-pin {
+    width: 12px; height: 12px;
+    background: var(--primary-gold);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.digital-wrapper {
+    padding: 2rem;
+    border: 1px solid var(--primary-gold);
+    border-radius: 10px;
+    background: var(--glass);
+}
+.time-text { font-size: 4.5rem; }
+
+.controls { margin-top: 3rem; }
+button {
+    background: transparent;
+    border: 1px solid var(--primary-gold);
+    color: var(--primary-gold);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+button:hover {
+    background: var(--primary-gold);
+    color: var(--bg-dark);
+}
